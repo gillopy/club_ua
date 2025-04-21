@@ -1,0 +1,591 @@
+{
+  "siteInfo": {
+    "title": "Club de Economía UA",
+    "description": "El club de economía de referencia en la Universidad de Alicante",
+    "logo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=60"
+  },
+  "hero": {
+    "subtitle": "Universidad de Alicante",
+    "title": "Club de Economía UA",
+    "description": "Potenciando el conocimiento económico y las oportunidades profesionales. Únete a nuestra comunidad de futuros economistas y líderes empresariales.",
+    "primaryButton": {
+      "text": "Únete Ahora",
+      "link": "/join"
+    },
+    "secondaryButton": {
+      "text": "Más Información",
+      "link": "/about"
+    },
+    "memberCount": "600+"
+  },
+  "mission": {
+    "title": "Nuestra Misión",
+    "description": "En el Club de Economía UA, nos comprometemos a cultivar una comunidad dinámica de estudiantes y profesionales de economía. Nuestra misión es ofrecer recursos de calidad, oportunidades de networking y experiencias prácticas que complementen la formación académica.",
+    "points": [
+      "Fomentar la alfabetización económica y el pensamiento crítico",
+      "Conectar la teoría académica con la práctica real",
+      "Generar oportunidades de networking con profesionales del sector",
+      "Impulsar el desarrollo profesional mediante talleres y mentorías",
+      "Estimular la investigación e innovación en pensamiento económico"
+    ],
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60"
+  },
+  "vision": {
+    "title": "Nuestra Visión",
+    "description": "Aspiramos a que cada estudiante de economía en la Universidad de Alicante esté equipado con el conocimiento, las habilidades y la red de contactos necesarios para triunfar en su carrera. Queremos ser la organización estudiantil de economía líder en España.",
+    "points": [
+      "Consolidarnos como la organización de economía universitaria de referencia en España",
+      "Forjar alianzas internacionales con clubes de economía de otras universidades",
+      "Crear un programa de mentoría sostenible que conecte estudiantes con exalumnos",
+      "Desarrollar iniciativas de investigación innovadoras ante desafíos económicos reales",
+      "Construir una comunidad diversa e inclusiva de entusiastas de la economía"
+    ],
+    "image": "https://images.unsplash.com/photo-1554168152-22d0e2f27b9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60"
+  },
+  "aboutUs": {
+    "title": "Sobre Nosotros",
+    "description": "Fundado en 2005, el Club de Economía UA ha evolucionado de un grupo reducido de estudiantes apasionados a una comunidad vibrante con más de 600 miembros. Organizamos conferencias, talleres y eventos de networking durante todo el año académico.",
+    "history": "El club nació de la iniciativa de cinco estudiantes de economía que buscaron un espacio para debatir teorías económicas más allá del aula. Con el tiempo, expandimos nuestras actividades a proyectos de investigación, ferias de empleo y congresos internacionales.",
+    "achievements": [
+      "Organización del Congreso Nacional de Estudiantes de Economía en 2018",
+      "Publicación anual de la revista 'Perspectivas Económicas' desde 2010",
+      "Alianzas con entidades financieras y consultoras de primer nivel",
+      "Programa de mentoría exitoso conectando estudiantes con profesionales",
+      "Premio a la 'Mejor Organización Estudiantil' de la Universidad de Alicante tres años consecutivos"
+    ],
+    "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60"
+  },
+  "features": [
+    {
+      "icon": "GraduationCap",
+      "title": "Excelencia Académica",
+      "description": "Acceso a investigaciones económicas de alto nivel, talleres y recursos académicos para mejorar tu formación."
+    },
+    {
+      "icon": "BriefcaseBusiness",
+      "title": "Oportunidades Profesionales",
+      "description": "Conéctate con profesionales del sector y descubre prácticas y empleos en economía."
+    },
+    {
+      "icon": "Users",
+      "title": "Red de Contactos",
+      "description": "Forma parte de una comunidad activa de estudiantes, profesores y profesionales apasionados por la economía."
+    },
+    {
+      "icon": "LineChart",
+      "title": "Proyectos de Investigación",
+      "description": "Participa en proyectos de investigación económica de vanguardia y adquiere experiencia práctica."
+    },
+    {
+      "icon": "Award",
+      "title": "Concursos y Premios",
+      "description": "Demuestra tus habilidades en competiciones económicas y recibe reconocimiento por tus logros."
+    },
+    {
+      "icon": "BarChart2",
+      "title": "Análisis de Datos",
+      "description": "Aprende técnicas avanzadas de análisis de datos y herramientas usadas en la investigación económica moderna."
+    }
+  ],
+  "articles": [
+    {
+      "id": "simposio-politica-economica",
+      "title": "Simposio de Política Económica: Desafíos Postpandemia",
+      "excerpt": "Resumen del simposio sobre políticas económicas para la recuperación y el crecimiento tras la pandemia.",
+      "date": "15 de junio de 2023",
+      "author": "Dra. María García",
+      "authorRole": "Profesora de Economía",
+      "image": "https://images.unsplash.com/photo-1581093588401-2044f8eea5cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=60",
+      "category": "Eventos",
+      "readTime": "8 min de lectura",
+      "content": "En este simposio, expertos de la administración y la academia debatieron estrategias fiscales y monetarias para impulsar la recuperación económica en Europa tras la COVID-19."
+    },
+    {
+      "id": "taller-mercados-financieros",
+      "title": "Taller de Mercados Financieros: Gestión de la Volatilidad",
+      "excerpt": "Recapitulación de nuestro taller práctico sobre análisis de mercados y toma de decisiones en entornos volátiles.",
+      "date": "5 de julio de 2023",
+      "author": "Carlos Rodríguez",
+      "authorRole": "Analista Financiero",
+      "image": "https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=60",
+      "category": "Talleres",
+      "readTime": "6 min de lectura",
+      "content": "Los participantes aprendieron técnicas de análisis técnico y fundamental, además de métodos de gestión de carteras en mercados cambiantes."
+    },
+    {
+      "id": "feria-empleo-economia",
+      "title": "Feria de Empleo: Edición Economía",
+      "excerpt": "Lo más destacado de nuestra feria, con historias de estudiantes que consiguieron prácticas y ofertas de trabajo.",
+      "date": "20 de julio de 2023",
+      "author": "Ana Martínez",
+      "authorRole": "Orientadora Profesional",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=60",
+      "category": "Carreras",
+      "readTime": "5 min de lectura",
+      "content": "Empresas líderes en finanzas y consultoría ofrecieron consejos y vacantes, mientras estudiantes compartieron sus experiencias de éxito."
+    },
+    {
+      "id": "metodologia-investigacion-economica",
+      "title": "Metodología de Investigación Económica Moderna",
+      "excerpt": "Herramientas y técnicas estadísticas para el diseño y análisis de proyectos de investigación económica.",
+      "date": "10 de agosto de 2023",
+      "author": "Dr. Javier López",
+      "authorRole": "Director de Investigación",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=60",
+      "category": "Investigación",
+      "readTime": "10 min de lectura",
+      "content": "Este artículo profundiza en metodologías cuantitativas, uso de software estadístico y diseño de encuestas para estudios económicos riguroso."
+    }
+  ],
+  "directory": {
+    "title": "Directorio de Miembros",
+    "description": "Conecta con compañeros, profesores y exalumnos que forman parte de nuestra comunidad.",
+    "categories": ["Estudiantes", "Profesores", "Alumni", "Junta Directiva"],
+    "members": [
+      {
+        "name": "Dra. Elena Sánchez",
+        "role": "Asesora Académica",
+        "department": "Departamento de Economía",
+        "image": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=60",
+        "category": "Profesores",
+        "contact": "elena.sanchez@ua.es",
+        "bio": "Especialista en Teoría Macroeconómica, asesora del club desde 2015."
+      },
+      {
+        "name": "Miguel Fernández",
+        "role": "Presidente",
+        "year": "4º",
+        "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=60",
+        "category": "Junta Directiva",
+        "contact": "miguel.fernandez@alu.ua.es",
+        "bio": "Doble grado en Economía y ADE, miembro activo desde primer curso."
+      },
+      {
+        "name": "Laura Gómez",
+        "role": "Vicepresidenta",
+        "year": "3º",
+        "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=60",
+        "category": "Junta Directiva",
+        "contact": "laura.gomez@alu.ua.es",
+        "bio": "Especialista en Economía Financiera, organizadora de talleres de inversión."
+      },
+      {
+        "name": "Carlos Martín",
+        "role": "Tesorero",
+        "year": "3º",
+        "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=60",
+        "category": "Junta Directiva",
+        "contact": "carlos.martin@alu.ua.es",
+        "bio": "Estudiante de Economía y Estadística, responsable de finanzas y presupuesto."
+      },
+      {
+        "name": "Ana Rodríguez",
+        "role": "Coordinadora de Eventos",
+        "year": "2º",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=60",
+        "category": "Junta Directiva",
+        "contact": "ana.rodriguez@alu.ua.es",
+        "bio": "Encargada de organizar conferencias, talleres y conferencias anuales."
+      },
+      {
+        "name": "Javier López",
+        "role": "Director de Investigación",
+        "company": "BBVA Research",
+        "image": "https://images.unsplash.com/photo-1502767089025-6572583495b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=60",
+        "category": "Alumni",
+        "contact": "javier.lopez@bbva.com",
+        "bio": "Graduado en 2018, analista económico en BBVA Research y mentor del club."
+      }
+    ]
+  },
+  "resources": {
+    "title": "Recursos",
+    "description": "Accede a una amplia variedad de materiales para potenciar tu formación académica y profesional.",
+    "categories": [
+      {
+        "name": "Artículos de Investigación",
+        "icon": "FileText",
+        "description": "Publicaciones de miembros y asesores del club.",
+        "items": [
+          {
+            "title": "Impacto de la COVID-19 en las PYMEs españolas",
+            "author": "Dra. Elena Sánchez",
+            "date": "2022",
+            "link": "/resources/papers/covid-impact-smes"
+          },
+          {
+            "title": "Finanzas Sostenibles: Tendencias y Oportunidades",
+            "author": "Miguel Fernández & Laura Gómez",
+            "date": "2023",
+            "link": "/resources/papers/sustainable-finance"
+          },
+          {
+            "title": "Monedas Digitales y el Futuro de la Banca",
+            "author": "Carlos Martín",
+            "date": "2023",
+            "link": "/resources/papers/digital-currencies"
+          }
+        ]
+      },
+      {
+        "name": "Bases de Datos",
+        "icon": "Database",
+        "description": "Conjuntos de datos económicos para proyectos de análisis.",
+        "items": [
+          {
+            "title": "Indicadores Económicos España (2010-2023)",
+            "source": "INE",
+            "format": "CSV, Excel",
+            "link": "/resources/data/spanish-economic-indicators"
+          },
+          {
+            "title": "Estadísticas de Mercado Laboral UE",
+            "source": "Eurostat",
+            "format": "CSV, JSON",
+            "link": "/resources/data/eu-labor-market"
+          },
+          {
+            "title": "Flujos Comerciales Globales",
+            "source": "Banco Mundial",
+            "format": "Excel, API",
+            "link": "/resources/data/global-trade-flows"
+          }
+        ]
+      },
+      {
+        "name": "Herramientas & Software",
+        "icon": "Tool",
+        "description": "Herramientas y software para análisis económico.",
+        "items": [
+          {
+            "title": "Licencia Estudiantil STATA",
+            "description": "Software estadístico para análisis de datos",
+            "type": "Licencia con Descuento",
+            "link": "/resources/tools/stata"
+          },
+          {
+            "title": "Tutoriales de R",
+            "description": "Aprende R para análisis económico",
+            "type": "Serie de Tutoriales",
+            "link": "/resources/tools/r-tutorials"
+          },
+          {
+            "title": "Acceso a Bloomberg Terminal",
+            "description": "Reserva tiempo en la terminal Bloomberg de la facultad",
+            "type": "Recurso Campus",
+            "link": "/resources/tools/bloomberg"
+          }
+        ]
+      },
+      {
+        "name": "Recursos de Carrera",
+        "icon": "Briefcase",
+        "description": "Materiales para preparar y avanzar en tu carrera en economía.",
+        "items": [
+          {
+            "title": "Plantillas de CV y Carta de Presentación",
+            "description": "Personalizadas para estudiantes de economía",
+            "type": "Plantillas",
+            "link": "/resources/career/resume-templates"
+          },
+          {
+            "title": "Guía de Preparación de Entrevistas",
+            "description": "Preguntas comunes y consejos",
+            "type": "Guía",
+            "link": "/resources/career/interview-prep"
+          },
+          {
+            "title": "Trayectorias Profesionales en Economía",
+            "description": "Opciones de carrera para graduados en economía",
+            "type": "Guía",
+            "link": "/resources/career/paths"
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Simposio de Política Económica",
+      "date": "15 de junio de 2023",
+      "time": "10:00 - 16:00",
+      "location": "Aula Magna, Facultad de Económicas",
+      "image": "https://images.unsplash.com/photo-1581093588401-2044f8eea5cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=60",
+      "attendees": 120,
+      "description": "Jornada con ponentes de gobierno, academia y sector privado sobre política fiscal, monetaria y marcos regulatorios.",
+      "speakers": [
+        {
+          "name": "Dra. María García",
+          "role": "Profesora de Economía, UA",
+          "topic": "Política Fiscal en la Europa Postpandemia"
+        },
+        {
+          "name": "Juan Pérez",
+          "role": "Economista Jefe, Banco de España",
+          "topic": "Retos de la Política Monetaria Actual"
+        },
+        {
+          "name": "Ana Rodríguez",
+          "role": "Asesora Económica, Ministerio de Economía",
+          "topic": "Regulación para un Crecimiento Sostenible"
+        }
+      ],
+      "schedule": [
+        {
+          "time": "10:00 - 10:30",
+          "activity": "Registro y Café de Bienvenida"
+        },
+        {
+          "time": "10:30 - 12:00",
+          "activity": "Ponencias"
+        },
+        {
+          "time": "12:00 - 13:00",
+          "activity": "Mesa Redonda"
+        },
+        {
+          "time": "13:00 - 14:00",
+          "activity": "Almuerzo de Networking"
+        },
+        {
+          "time": "14:00 - 15:30",
+          "activity": "Talleres Temáticos"
+        },
+        {
+          "time": "15:30 - 16:00",
+          "activity": "Cierre y Conclusiones"
+        }
+      ]
+    },
+    {
+      "title": "Taller de Mercados Financieros",
+      "date": "5 de julio de 2023",
+      "time": "14:00 - 18:00",
+      "location": "Sala de Grados, Facultad de Económicas",
+      "image": "https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=60",
+      "attendees": 85,
+      "description": "Taller práctico sobre análisis de mercados y estrategias de inversión en entornos volátiles.",
+      "speakers": [
+        {
+          "name": "Carlos Rodríguez",
+          "role": "Analista Financiero, BBVA",
+          "topic": "Técnicas de Análisis de Mercado"
+        },
+        {
+          "name": "Laura Gómez",
+          "role": "Gestora de Carteras, Santander Asset Management",
+          "topic": "Construcción y Gestión de Carteras"
+        }
+      ],
+      "schedule": [
+        {
+          "time": "14:00 - 14:30",
+          "activity": "Introducción a los Mercados"
+        },
+        {
+          "time": "14:30 - 15:30",
+          "activity": "Técnicas de Análisis"
+        },
+        {
+          "time": "15:30 - 16:00",
+          "activity": "Pausa para Café"
+        },
+        {
+          "time": "16:00 - 17:00",
+          "activity": "Gestión de Carteras"
+        },
+        {
+          "time": "17:00 - 18:00",
+          "activity": "Preguntas y Networking"
+        }
+      ]
+    },
+    {
+      "title": "Feria de Empleo: Economía",
+      "date": "20 de julio de 2023",
+      "time": "11:00 - 17:00",
+      "location": "Aulario II, UA",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=60",
+      "attendees": 200,
+      "description": "Encuentra oportunidades de prácticas y empleo, y asiste a talleres de desarrollo profesional.",
+      "companies": [
+        {
+          "name": "BBVA",
+          "positions": ["Analista Económico", "Asistente de Investigación", "Analista de Datos"]
+        },
+        {
+          "name": "Deloitte",
+          "positions": ["Consultor Económico", "Asesor Financiero"]
+        },
+        {
+          "name": "Banco Central Europeo",
+          "positions": ["Practicante de Investigación", "Analista Económico"]
+        },
+        {
+          "name": "PwC",
+          "positions": ["Consultor Económico", "Analista Financiero"]
+        },
+        {
+          "name": "Banco Santander",
+          "positions": ["Analista de Inversiones", "Analista de Riesgos"]
+        }
+      ],
+      "workshops": [
+        {
+          "time": "11:30 - 12:30",
+          "title": "Cómo redactar tu CV",
+          "presenter": "Ana Martínez, Orientadora Profesional"
+        },
+        {
+          "time": "13:00 - 14:00",
+          "title": "Técnicas de Entrevista",
+          "presenter": "Miguel Fernández, Especialista RRHH"
+        },
+        {
+          "time": "14:30 - 15:30",
+          "title": "Estrategias de Networking",
+          "presenter": "Dra. Elena Sánchez, Profesora de Economía"
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Unirme al Club de Economía UA fue una de las mejores decisiones de mi carrera. El networking y los conocimientos prácticos fueron clave para mi desarrollo.",
+      "author": "María García",
+      "position": "Analista Económica, BBVA",
+      "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&q=60"
+    },
+    {
+      "quote": "Los recursos de investigación y la mentoría me ayudaron a desarrollar habilidades críticas que me diferenciaron en las entrevistas.",
+      "author": "Carlos Rodríguez",
+      "position": "Doctorando en Economía",
+      "image": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&q=60"
+    },
+    {
+      "quote": "Como estudiante internacional, encontré en el club una comunidad de apoyo y un entendimiento profundo del panorama económico español.",
+      "author": "Sophie Laurent",
+      "position": "Consultora Financiera",
+      "image": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&q=60"
+    },
+    {
+      "quote": "Los talleres y seminarios complementaron perfectamente mis conocimientos teóricos con aplicaciones reales.",
+      "author": "Alejandro Martínez",
+      "position": "Investigador Económico",
+      "image": "https://images.unsplash.com/photo-1603415526960-f7e0328c9f4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&q=60"
+    }
+  ],
+  "membership": {
+    "plans": [
+      {
+        "name": "Estudiante",
+        "price": "€20",
+        "period": "al año",
+        "description": "Ideal para estudiantes de grado que quieren adentrarse en el mundo de la economía.",
+        "features": [
+          "Acceso a todos los eventos del club",
+          "Newsletter mensual",
+          "Recursos básicos de investigación",
+          "Oportunidades de networking",
+          "Certificado de membresía"
+        ],
+        "popular": false
+      },
+      {
+        "name": "Premium",
+        "price": "€35",
+        "period": "al año",
+        "description": "Para estudiantes comprometidos que buscan recursos y oportunidades avanzadas.",
+        "features": [
+          "Todas las ventajas del plan Estudiante",
+          "Registro prioritario en eventos",
+          "Acceso a talleres exclusivos",
+          "Programa de mentoría",
+          "Revisión de CV",
+          "Oportunidades de liderazgo"
+        ],
+        "popular": true
+      },
+      {
+        "name": "Alumni",
+        "price": "€50",
+        "period": "al año",
+        "description": "Para graduados que desean mantenerse conectados y contribuir a la comunidad.",
+        "features": [
+          "Todas las ventajas del plan Premium",
+          "Oportunidades de ponencia",
+          "Acceso a reclutamiento",
+          "Directorio de alumni",
+          "Recursos de desarrollo profesional",
+          "Oportunidad de mentoría"
+        ],
+        "popular": false
+      }
+    ]
+  },
+  "footer": {
+    "socialLinks": [
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/clubeconomiaua"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/clubeconomiaua"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://instagram.com/clubeconomiaua"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/company/clubeconomiaua"
+      }
+    ],
+    "quickLinks": [
+      {
+        "text": "Sobre Nosotros",
+        "url": "/about"
+      },
+      {
+        "text": "Nuestro Equipo",
+        "url": "/team"
+      },
+      {
+        "text": "Eventos",
+        "url": "/events"
+      },
+      {
+        "text": "Investigación",
+        "url": "/research"
+      },
+      {
+        "text": "Membresía",
+        "url": "/membership"
+      },
+      {
+        "text": "Contacto",
+        "url": "/contact"
+      }
+    ],
+    "contactInfo": {
+      "address": "Facultad de Económicas, Universidad de Alicante, 03690 San Vicente del Raspeig, Alicante, España",
+      "phone": "+34 965 90 3400",
+      "email": "info@clubeconomiaua.es"
+    },
+    "legalLinks": [
+      {
+        "text": "Política de Privacidad",
+        "url": "/privacy"
+      },
+      {
+        "text": "Términos de Servicio",
+        "url": "/terms"
+      },
+      {
+        "text": "Política de Cookies",
+        "url": "/cookies"
+      }
+    ]
+  }
+}

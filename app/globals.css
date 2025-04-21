@@ -1,0 +1,321 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 5%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 7%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 7%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 160 84% 39%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 217 32% 12%;
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 160 84% 39%;
+    --accent-foreground: 210 40% 98%;
+
+    --muted: 217 32% 12%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 32% 17%;
+    --input: 217 32% 17%;
+    --ring: 160 84% 39%;
+
+    --radius: 0.5rem;
+
+    --cosmic-center: rgba(46, 182, 119, 0.15);
+    --cosmic-edge: rgba(14, 15, 17, 0);
+  }
+
+  .light {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 160 84% 39%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222 47% 11%;
+
+    --accent: 160 84% 39%;
+    --accent-foreground: 210 40% 98%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 160 84% 39%;
+
+    --cosmic-center: rgba(46, 182, 119, 0.1);
+    --cosmic-edge: rgba(255, 255, 255, 0);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    letter-spacing: -0.01em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display tracking-tighter;
+    letter-spacing: -0.04em;
+    line-height: 1.1;
+  }
+
+  h1 {
+    @apply text-3xl font-medium md:text-4xl lg:text-5xl;
+  }
+
+  h2 {
+    @apply text-2xl font-medium md:text-3xl lg:text-4xl;
+  }
+
+  h3 {
+    @apply text-xl font-medium md:text-2xl;
+  }
+
+  p {
+    @apply leading-relaxed;
+    letter-spacing: -0.01em;
+  }
+}
+
+.container {
+  @apply px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl;
+}
+
+/* Cosmic Background */
+.cosmic-bg {
+  @apply relative overflow-hidden;
+}
+
+.cosmic-bg::before {
+  content: "";
+  @apply absolute inset-0 bg-cosmic-gradient opacity-70 animate-cosmic-pulse;
+  z-index: -2;
+}
+
+.cosmic-bg::after {
+  content: "";
+  @apply absolute inset-0 bg-cosmic-mesh opacity-10;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Cosmic Card */
+.cosmic-card {
+  @apply relative overflow-hidden rounded-xl border border-space-800/50 bg-space-900/50 backdrop-blur-md transition-all duration-300;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.cosmic-card::before {
+  content: "";
+  @apply absolute inset-0 bg-gradient-to-br from-cosmic-500/10 to-transparent opacity-50;
+  z-index: -1;
+}
+
+/* Article Card */
+.article-card {
+  @apply cosmic-card hover:border-cosmic-700/50 hover:shadow-lg hover:shadow-cosmic-500/10;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+}
+
+.article-card .article-image {
+  @apply aspect-video w-full overflow-hidden;
+}
+
+.article-card .article-content {
+  @apply flex flex-1 flex-col p-6;
+}
+
+.article-card .article-title {
+  @apply text-xl font-medium text-white hover:text-cosmic-300 tracking-tighter;
+  transition: color 0.3s ease;
+}
+
+.article-card .article-meta {
+  @apply mt-2 flex items-center gap-3 text-sm text-space-400;
+}
+
+.article-card .article-excerpt {
+  @apply mt-4 flex-1 text-space-300;
+}
+
+.article-card .article-footer {
+  @apply mt-6 flex items-center justify-between;
+}
+
+.article-card .article-tag {
+  @apply rounded-full bg-cosmic-900/50 border border-cosmic-700/50 px-3 py-1 text-xs font-medium text-cosmic-300;
+}
+
+.article-card .article-link {
+  @apply flex items-center gap-1 text-sm font-medium text-cosmic-400 hover:text-cosmic-300;
+  transition: color 0.3s ease;
+}
+
+/* Cosmic Button */
+.cosmic-btn {
+  @apply relative inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50;
+  background: linear-gradient(180deg, rgba(46, 182, 119, 0.1) 0%, rgba(14, 15, 17, 0) 100%);
+  border: 1px solid rgba(46, 182, 119, 0.2);
+  box-shadow: 0 0 20px rgba(46, 182, 119, 0.1);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.cosmic-btn:hover {
+  background: linear-gradient(180deg, rgba(46, 182, 119, 0.2) 0%, rgba(14, 15, 17, 0.05) 100%);
+  border: 1px solid rgba(46, 182, 119, 0.3);
+  box-shadow: 0 0 25px rgba(46, 182, 119, 0.15);
+  transform: translateY(-2px);
+}
+
+.cosmic-btn:active {
+  transform: translateY(0);
+}
+
+/* Cosmic Tabs */
+.cosmic-tabs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.cosmic-tab {
+  padding: 0.75rem;
+  height: 30px;
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 300ms;
+  color: rgb(148 163 184); /* text-space-400 */
+  display: flex;
+  align-items: center;
+}
+
+.cosmic-tab:hover {
+  color: white;
+}
+
+.cosmic-tab.active {
+  color: white;
+}
+
+.cosmic-tab-indicator {
+  position: absolute;
+  bottom: -6px;
+  height: 2px;
+  background-color: rgb(46, 182, 119); /* bg-cosmic-500 */
+  transition: all 300ms ease-out;
+}
+
+.cosmic-tab-hover {
+  position: absolute;
+  height: 30px;
+  transition: all 300ms ease-out;
+  background-color: rgba(46, 182, 119, 0.1); /* bg-cosmic-500/10 */
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+/* Cosmic Section */
+.cosmic-section {
+  @apply py-12 md:py-20 lg:py-28 relative overflow-hidden;
+}
+
+.cosmic-section::before {
+  content: "";
+  @apply absolute inset-0 bg-cosmic-gradient opacity-30;
+  z-index: -1;
+}
+
+/* Cosmic Divider */
+.cosmic-divider {
+  @apply relative h-px w-full my-12 md:my-20 overflow-hidden;
+}
+
+.cosmic-divider::before {
+  content: "";
+  @apply absolute inset-0 bg-gradient-to-r from-transparent via-cosmic-500/30 to-transparent;
+}
+
+/* Cosmic Glow */
+.cosmic-glow {
+  @apply relative;
+}
+
+.cosmic-glow::before {
+  content: "";
+  @apply absolute -inset-1 rounded-full bg-cosmic-500 blur-md opacity-30;
+  z-index: -1;
+}
+
+/* Animations */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.pulse-animation {
+  animation: pulse 4s ease-in-out infinite;
+}
