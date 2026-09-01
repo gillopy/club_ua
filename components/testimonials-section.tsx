@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import { Quote } from "lucide-react"
 import { useContent } from "@/lib/data-provider"

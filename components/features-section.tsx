@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import { Award, BarChart2, BookOpen, BriefcaseBusiness, GraduationCap, LineChart, Users } from "lucide-react"
 import { useContent } from "@/lib/data-provider"

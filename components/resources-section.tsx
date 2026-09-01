@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import { Briefcase, Database, FileText, PenToolIcon as Tool } from "lucide-react"
 import { useContent } from "@/lib/data-provider"
